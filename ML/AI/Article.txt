@@ -1,0 +1,12 @@
+TRANSFORMER MODEL
+There are 2 things a TRANSFORMER MODEL does very well
+1.SELF ATTENTION:-One of the most important things in human vocabulary which makes it different from that of computer is the "context".But there are no such so called RULES that governs the context like there is for grammar.Hence in this case the self attention system of TRANSFORMER MODEL helps to apply context in a data-driven way.In this model computer understands the context by referring to the previous words/sentence.Transformer models use neural networks to generate a vector called query, and a vector called key for each word. When the query from one word matches the key from another word, that means the second word has a relevant context for the first word. In order to provide appropriate context from the second word to the first word, a third vector called value is generated which is then combined with the first word to get a more contextualized meaning of the first word.
+2.The Transformer model does parallelization very well. This means the computation can be performed parallely for different part of the input sequence while speeding up training and inference time .It is also scalable since Transformers can handle sequences of variable lengths without the need for fixed-size windows or truncation, making them versatile for various NLP tasks, from short sentences to lengthy documents.
+ Bidirectional Encoder Representations from Transformers (BERT)
+ There are 2 objectives of this:
+ 1.To guess the missing words from a body of text
+ 2.If given 2 sentences it will guess if the
+ GENERATIVE PRETRAINED TRANSFORMER(GPT) VS BERT
+ GPT predicts the next words and BERT guess the missing words
+
+
